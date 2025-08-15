@@ -1,5 +1,5 @@
 let form = document.getElementById("form");
-let data = JSON.parse(localStorage.getItem("storage"));
+let data = JSON.parse(localStorage.getItem("storage")) || [];
 let lists = document.getElementById("lists");
 let none = document.getElementById("none");
 
