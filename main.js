@@ -80,7 +80,7 @@ lists.addEventListener("click", (e) => {
     addUi(data);
     local(data);
   } else if (target.classList.contains("fa-pen")) {
-    editId = +target.id; // faqat son sifatida saqlaymiz
+    editId = +target.id;
     let item = data.find((value) => value.id === editId);
     document.getElementById("text").value = item.text;
   }
